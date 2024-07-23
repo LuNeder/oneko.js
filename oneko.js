@@ -285,6 +285,7 @@
   function updatePos() {
       nekoEl.style.left = `${nekoPosX - 16}px`;
       nekoEl.style.top = `${nekoPosY - 16}px`;
+  }
 
   init();
 })();
