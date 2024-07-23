@@ -106,7 +106,7 @@
     document.body.appendChild(nekoEl);
 
     document.addEventListener("wheel", function (event) {
-      nekoPosY += event.deltaY / 10;
+      nekoPosY -= event.deltaY / 10;
       updatePos();
     });
 
